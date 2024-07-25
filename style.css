@@ -1,0 +1,600 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+}
+
+@font-face {
+    font-family: rob;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: open;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    height: 847px;
+    background-color: #1e28320b;
+    padding-top: 30px;
+    position: relative;
+    
+}
+
+.v6vic{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.group{
+    width: 31px;
+    height: 15px;
+}
+
+.cor{
+    font-size: 28px;
+    font-family: rob;
+    align-items: center;
+}
+
+.topmain{
+    width: 1320px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    
+   
+}
+.logo{
+    margin-top: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .acc{
+        width: 20px;
+        height: 19px;
+        column-gap: 20px;
+    }
+
+    .btn1{
+        width: 67px;
+        height: 21px;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    
+
+    .account{
+        display: flex;
+        
+    }
+    .mainspan{
+        display: flex;
+        justify-content: end;
+        margin-top: -58px;
+        column-gap: 10px;
+    }
+
+    hr{
+        border: 1px solid #E3E3E3;
+        margin-top: 35px;
+    }
+
+    
+    .omega{
+        
+        display: flex;
+        margin-top: 30px;
+        font-size: 16px;
+        font-family: open;
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .vector{
+      position: absolute;
+      width: 195px;
+      height: 262px;
+      margin-top: 200px;
+      margin-left: 1250px; 
+    }
+
+    .fram{
+      position: absolute;
+      margin-top: 370px;
+      margin-left: -150px;
+
+
+    }
+
+
+    .product{
+        width: 1226px;
+        height: 562px;
+        margin-top: 50px;
+        border: 1px solid;
+        display: flex;
+        border: none;
+    
+    }
+
+    .content{
+        width: 668px;
+        height: 364px;
+        border: 1px solid;
+        margin: 0;
+        padding: 0;
+        margin-top: 70px;
+        border: none;
+    }
+
+    .collect{
+        font-size: 74px;
+        font-family: rob;
+        margin: 0;
+    }
+
+    .various{
+        font-size: 30px;
+        font-family: rob;
+        
+    }
+
+    .btn2{
+           width: 223px;
+          height: 72px;
+          padding-left: 30px;
+          margin-top: 65px;
+          background-color: #1E2832;
+          cursor: pointer;
+          font-size: 29px;
+          color: white;
+        
+        }
+
+    .shop{
+          position: absolute;
+          margin-left: -160px;
+        }
+
+    .glam{
+    width: 442px;
+    height: 562px;
+    margin-left: auto;
+    
+    }
+
+.brands{
+
+    display: flex;
+    margin-top: 150px;
+    border: 1px solid;
+    justify-content: center;
+    justify-content: space-between;
+    border: none;
+
+
+}
+
+.hotcategory{
+    width: 1320px;
+    height: 648px;
+    border: 1px solid;
+    margin-top: 50px;
+    display: flex;
+    border: none;
+    
+    
+}
+.pic1{
+    display: flex;
+    column-gap: 20px;
+    width: 312px;
+    height: 312px;
+    margin-left: 25px;
+
+
+    }
+
+.pic2{
+    position: absolute;
+   display: flex;
+   width: 312px;
+   height: 312px;
+   margin-top: 330px;
+   margin-left: 671px;
+   column-gap: 20px;
+
+}
+
+
+
+
+.explo{
+   position: absolute;
+   font-size: 34px;
+   rotate: 300grad;
+   margin-left: -250px;
+   margin-top: 350px;
+
+   
+}
+
+.subscr{
+font-family: rob;
+font-size: 50px;
+text-align: center;
+
+}
+
+
+.beta{
+    font-size: 16px;
+    font-family: open;
+    display: flex;
+    list-style-type: none;
+    column-gap: 30px;
+}
+
+.filter{
+    width: 92px;
+    height: 32px;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color:#1E2832 ;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.imfilt{
+    position: absolute;
+    margin-left: -60px;
+}
+
+.anvap{
+    width: 312px;
+
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+    
+    
+}
+
+.topproduct2{
+    margin-top: 20px;
+}
+
+.bottomproduct{
+    width: 292px;
+    
+    
+    
+}
+
+
+.box1{
+   display: flex;
+   justify-content: space-between;
+}
+
+.box11{
+    display: flex;
+    column-gap: 20px;
+}
+
+
+.Dress{
+    color:#00000080 ;
+    
+}
+
+    .red{
+    color: red;
+    
+} 
+
+
+.product2{
+display: flex;
+   
+}
+
+.anvap1{
+    width: 312px;
+   
+}
+
+.prod222{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 60px;
+    margin-left: 25px;
+   
+}
+
+.tpbanner{
+    width: 100%;
+    height: 776px;
+    margin-top: 80px;
+    background-color:#010204 ;
+    background-image: url(pics/andrey-zvyagintsev-EQj1ZMpq_VM-unsplash\ 1.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+
+   
+    
+}
+
+.mainzara{
+    position: absolute;
+    right: 380px;
+    margin-top: 250px;
+}
+
+
+.zara2{
+    position: absolute;
+    right: 0;
+    margin-top: 51px;
+}
+
+
+
+.paragraf{
+    font-size: 26px;
+    font-family: rob;
+    color: white;
+   
+}
+
+.btn3{
+    width: 237px;
+    height: 72px;
+    
+    background-color: white;
+    font-family: rob;
+    font-size: 29px;
+}
+
+.bestsel{
+    text-align: center;
+    margin-top: 100px;
+    font-family: rob;
+    font-size: 50px;
+}
+
+
+
+.slider{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards{
+    display: flex;
+    column-gap: 35px;
+    margin-left: 30px;
+    
+}
+
+.instnew{
+    width: 100%;
+    height: 700px;
+    background-color:#1e28320a ;
+    
+
+    
+}
+
+.topcards{
+    padding-top: 10px;
+}
+
+
+
+.topfollow{
+    font-family: rob;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.topcards{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    
+}
+
+.letters{
+    font-family: rob;
+    font-size: 50px;
+}
+
+.configur{
+    width: 643px;
+    height: 32px;
+    background-color: #1e283200;
+    border: none;
+}
+
+.box322{
+    width: 91px;
+    height: 32px;
+    font-family: open;
+    font-size: 16px;
+    background-color: #1e283200;
+    border: none;
+}
+
+.pixtar{
+    position: absolute;
+    margin-top: 170px;
+}
+
+.pixtar2{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 170px;
+}
+
+.border{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.maininf{
+    display: flex;
+    column-gap: 15px;
+}
+.rh1{
+    margin: 0;
+    
+    border: 1px solid black;
+}
+
+.hr2{
+    border: 1px solid black;
+    margin: 0;
+}
+
+.coralblack{
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    column-gap: 36px;
+    margin-top: 10px;
+}
+
+.emsity{
+    font-size: 28px;
+}
+
+.dolorsit{
+    font-family: open;
+    font-size: 16px;
+    color: #1E2832BF;
+    line-height: 30px;
+}
+
+.catmenu{
+    font-family: open;
+    font-size: 16px;
+    margin: 0;
+}
+
+.catalogmenu{
+    font-size: 14px;
+    font-family: open;
+    list-style-type: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+.topfooter{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    column-gap: 170px;
+    
+}
+
+.box221{
+    font-family: open;
+    font-size: 16px;
+    margin: 0;
+}
+
+.catalogmenu1{
+    font-size: 14px;
+    font-family: open;
+    list-style-type: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+.titlemenu1{
+   margin-top: 25px;
+}
+
+.bottomfooter{
+    width: 100%;
+    height: 52px;
+    margin-top: 50px;
+    background-color: #1E2832;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.span3{
+    font-family: open;
+    font-size: 16px;
+    color: white;
+}
+
+.btn4{
+    width: 150px;
+    height: 32px;
+    font-family: open;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #1E2832;
+    border: none;
+
+}
+
+.payment{
+    height: 24px;
+}
+
+
+
+
+
+
+
